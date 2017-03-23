@@ -7,18 +7,20 @@ import { AppComponent } from './app.component';
 import { MtbInputComponent } from './mtb-input/mtb-input.component';
 import { MtbCellComponent } from './mtb-cell/mtb-cell.component';
 import { MtbStepComponent } from './mtb-step/mtb-step.component';
+import {AppRoutingModule} from "./app-routing/app-routing.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MtbInputComponent,
     MtbCellComponent,
-    MtbStepComponent
+    MtbStepComponent,
+    MtbInputComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

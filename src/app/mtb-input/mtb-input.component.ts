@@ -3,8 +3,7 @@ import {MTBCellType} from "../helpers/mtb-cell-type.enum";
 import {Grid} from "../helpers/Grid";
 import {Cell} from "../helpers/Cell";
 import {Backtrack} from "../helpers/Backtrack";
-import Promise = promise.Promise;
-import {promise} from "selenium-webdriver";
+
 
 @Component({
   moduleId: module.id,
