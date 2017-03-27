@@ -3,28 +3,28 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "postinstall": "ng build --prod",
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "buildprod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "srv": "static-server -p 80 dist"
+    "srv": "static-server -p 80 src"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "^1.0.0-rc.1",
     "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
     "@angular/core": "^2.4.0",
     "@angular/forms": "^2.4.0",
     "@angular/http": "^2.4.0",
     "@angular/platform-browser": "^2.4.0",
     "@angular/platform-browser-dynamic": "^2.4.0",
+    "express-simple-static-server": "^0.1.0",
     "@angular/router": "^3.4.0",
     "core-js": "^2.4.1",
-    "express": "^4.15.2",
-    "express-simple-static-server": "^0.1.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.7.6"
   },
