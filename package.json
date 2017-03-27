@@ -2,6 +2,9 @@
   "name": "mtb-solver-app",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "6.9.4"
+  },
   "scripts": {
     "start": "node server.js"
   },
