@@ -3,7 +3,7 @@
   <div class="input-group">
     <label for="colorSelect">Color</label>
     <select id="colorSelect" [(ngModel)]="selectedColor" [disabled]=inProgress>
-      <option *ngFor="let key of cellTypeKeys" [value]="key" [label]="cellTypes[key]"></option>
+      <option *ngFor="let key of cellTypeKeys" [value]="key" [label]="cellTypes[key]">{{cellTypes[key]}}</option>
     </select>
   </div>
   <div>
