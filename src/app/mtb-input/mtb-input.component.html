@@ -23,7 +23,7 @@
     </div>
   </div>
   <div>
-    <div><button (click)="generateGrid()" [disabled]=inProgress>Clear</button></div>
+    <div><button (click)="generateGrid($event)" [disabled]=inProgress>Clear</button></div>
     <div>
       <label for="steps">Number of steps:</label>
       <input [disabled]=inProgress type="number" id="steps" [(ngModel)]="steps">
